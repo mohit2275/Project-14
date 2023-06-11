@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar img {
+    position: absolute;
+    z-index: -10;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80vh;
+}
+
+.navbar-text {
+    position: absolute;
+    top: 30vh;
+    border: 1px rgb(230, 227, 227) solid;
+    color: rgb(243, 237, 237);
+    font-size: 25px;
+    padding: 22px 20px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+}
+
+.navbar-text h1 {
+    font-weight: 100;
+}
+
+.menu {
+    position: absolute;
+    top: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.menu a {
+    font-size: 15px;
+    color: black;
+    background-color: #f1f1f1;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#home {
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#contact {
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+/* ///////// SECTION 1  /////////////*/
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 85vh;
+    row-gap: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+.section1 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ////////// SECTION 3  ///////// */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 90vh;
+    padding: 10px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section3 h1 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.section3 p {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.s3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 13vh;
+    width: 100%;
+    padding: 0px 2px;
+}
+
+.s3 input {
+    height: 40px;
+    border: 1px rgb(189, 189, 189) solid;
+}
+
+.section3 button {
+    background-color: #616161;
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 0px;
+}
